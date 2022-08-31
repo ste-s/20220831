@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20220831</title>
+    <script lang="javascript">
+        function processar()
+        {
+            var CPF, nome, sexo, email, ifsp, selecao, NE, DV, DA, DMO, DME, T, EX, H, B, ED, Jadinagem, Artesanato, Leitura, Escrita, Musica, Pintura, RedesSociais, Viagens, Series, Academia, Outros;
+            CPF = document.formulario.cpf.value;
+            nome = document.formulario.nome.value;
+            sexo = document.formulario.sexo.value;
+            email = document.formulario.email.value;
+            ifsp = document.formulario.IFSP.checked;
+            selecao = document.formulario.select.value;
+            NE = document.formulario.NE.value;
+            DV = document.formulario.NES.checked;
+            DA = document.formulario.NES.checked;
+            DMO = document.formulario.NES.checked;
+            DME = document.formulario.NES.checked;
+            T = document.formulario.AI.checked;
+            EX = document.formulario.AI.checked;
+            H = document.formulario.AI.checked;
+            B = document.formulario.AI.checked;
+            ED = document.formulario.AI.checked;
+            Jardinagem = document.formulario.H.checked;
+            Artesnato = document.formulario.H.checked;
+            Leitura = document.formulario.H.checked;
+            Escrita = document.formulario.H.checked;
+            Musica = document.formulario.H.checked;
+            Pintura = document.formulario.H.checked;
+            RedesSociais = document.formulario.H.checked;
+            Viagens = document.formulario.H.checked;
+            Series = document.formulario.H.checked;
+            Academia = document.formulario.H.checked;
+            Outros = document.formulario.H.checked;
+        }   
+    </script>
+</head>
+<body>
+    <form name="formulario">
+        Insira seu CPF: <input type="text" name="cpf"> <br><br>
+        Insira seu nome: <input type="text" name="nome"> <br><br>
+        Sexo: 
+        <input type="radio" name="sexo" value="F"> Feminino
+        <input type="radio" name="sexo" value="M"> Masculino
+        <br><br>
+        Insira seu email: <input type="text" name="email"> <br><br>
+        <input type="checkbox" name="IFSP" value="IF">É aluno do IFSP? <br><br>
+        Câmpus IFSP: 
+        <select name="select">
+            <option value="Araraquara">IFSP - Câmpus Araraquara</option>
+            <option value="Avare">IFSP - Câmpus Avaré</option>
+            <option value="Barretos">IFSP - Câmpus Barretos</option>
+            <option value="Birigui">IFSP - Câmpus Birigui</option>
+            <option value="Boituva">IFSP - Câmpus Boituva</option>
+            <option value="BragancaPaulista">IFSP - Câmpus Bragança Paulista</option>
+            <option value="Campinas">IFSP - Câmpus Campinas</option>
+            <option value="CamposDoJordao">IFSP - Câmpus Campos do Jordão</option>
+            <option value="Capivari">IFSP - Câmpus Capivari</option>
+            <option value="Caraguatatuba">IFSP - Câmpus Caraguatatuba</option>
+            <option value="Catanduva">IFSP - Câmpus Catanduva</option>
+            <option value="Cubatao" selected>IFSP - Câmpus Cubatão</option>
+            <option value="Guarulhos">IFSP - Câmpus Guarulhos</option>
+            <option value="Hortolandia">IFSP - Câmpus Hortolândia</option>
+            <option value="IlhaSolteira">IFSP - Câmpus Ilha Solteira</option>
+            <option value="Itapetininga">IFSP - Câmpus Itapetininga</option>
+            <option value="Itaquaquecetuba">IFSP - Câmpus Itaquaquecetuba</option>
+            <option value="Jacarei">IFSP - Câmpus Jacareí</option>
+            <option value="Jundiai">IFSP - Câmpus Jundiaí</option>
+            <option value="Matao">IFSP - Câmpus Matão</option>
+            <option value="Piracicaba">IFSP - Câmpus Piracicaba</option>
+            <option value="Pirituba">IFSP - Câmpus Pirituba</option>
+            <option value="PresidenteEpitacio">IFSP - Câmpus Presidente Epitácio</option>
+            <option value="Registro">IFSP - Câmpus Registro</option>
+            <option value="Salto">IFSP - Câmpus Salto</option>
+            <option value="SaoCarlos">IFSP - Câmpus São Carlos</option>
+            <option value="SaoJoaoDaBoaVista">IFSP - Câmpus São João da Boa Vista</option>
+            <option value="SaoJosedoRioPreto">IFSP - Câmpus São José do Rio Preto</option>
+            <option value="SaoJosedosCampos">IFSP - Câmpus São José dos Campos</option>
+            <option value="SaoMiguelPaulista">IFSP - Câmpus São Miguel Paulista</option>
+            <option value="SaoPaulo">IFSP - Câmpus São Paulo</option>
+            <option value="SaoRoque">IFSP - Câmpus São Roque</option>
+            <option value="Sertaozinho">IFSP - Câmpus Sertãozinho</option>
+            <option value="Sorocaba">IFSP - Câmpus Sorocaba</option>
+            <option value="Suzano">IFSP - Câmpus Suzano</option>
+            <option value="Tupa">IFSP - Câmpus Tupã</option>
+            <option value="Votuporanga">IFSP - Câmpus Votuporanga</option>  
+        </select> <br><br>
+        Necessidades Especiais?
+        <input type="radio" name="NE" value="Sim"> Sim
+        <input type="radio" name="NE" value="Não"> Não
+        <br><br>
+        Quais?
+        <input type="checkbox" name="NES" value="DV"> Deficiência Visual
+        <input type="checkbox" name="NES" value="DA"> Deficiência Auditiva
+        <input type="checkbox" name="NES" value="DMO"> Deficiência Motora
+        <input type="checkbox" name="NES" value="DME"> Deficiência Mental
+        <br><br>
+        Áreas de Interesse:
+        <input type="checkbox" name="AI" value="T"> Tecnologia
+        <input type="checkbox" name="AI" value="EX"> Exatas
+        <input type="checkbox" name="AI" value="H"> Humanas
+        <input type="checkbox" name="AI" value="B"> Biológicas
+        <input type="checkbox" name="AI" value="ED"> Educação
+        <br><br>
+        Hobbies:
+        <input type="checkbox" name="H" value="Jardinagem"> Jardinagem
+        <input type="checkbox" name="H" value="Artesanato"> Artesanato
+        <input type="checkbox" name="H" value="Leitura"> Leitura
+        <input type="checkbox" name="H" value="Escrita"> Escrita
+        <input type="checkbox" name="H" value="Musica"> Música
+        <input type="checkbox" name="H" value="Pintura"> Pintura
+        <input type="checkbox" name="H" value="RedesSociais"> Redes Sociais
+        <input type="checkbox" name="H" value="Viagens"> Viagens
+        <input type="checkbox" name="H" value="Series"> Séries
+        <input type="checkbox" name="H" value="Academia"> Academia
+        <input type="checkbox" name="H" value="Outros"> Outros
+        <br><br>
+        <textarea name="sugestoes" cols="30" rows="10">Insira aqui suas sugestões</textarea>
+    </form>
+    <script lang="javascript">
+
+    </script>
+</body>
+</html>
